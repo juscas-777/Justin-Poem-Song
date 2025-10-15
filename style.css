@@ -1,16 +1,16 @@
 body {
+  font: 16px;
     background-image: url(https://i.ytimg.com/vi/m1iTy0zJ8dU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCTDt2SQGaH6r5M-M-v5zpB1-0aTg);
     
     background-size: cover;
 }
 
 .border {
-    width: 80%;
+  display: inline-block;
   background: radial-gradient(circle, black, #2B2E13, #BD3128);
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
-  max-width: 300px;
+  padding: 1.5rem 4rem;
   border-radius: 10px;
 }
 
@@ -24,9 +24,14 @@ header {
     text-align: center;
     font-family: "Michroma";
     color: white;
+    img {
+      margin-top: 1rem;
+    }
 }
 
-
+img {
+  border: 2px solid red;
+}
 .lyrics {
     margin-left: auto;
     margin-right: auto;
@@ -55,17 +60,15 @@ footer {
 }
 
 hr {
-    height: 2px;
-  background-color: #BD3128;
-  border-color: #BD3128;
+  height: 2px;
+  height: 0.2rem;
+  background-color: #bd3128;
+  border-color: #bd3128;
   width: 50%;
+  min-width: 24rem;
 }
 
-a {
-  color: white;
-}
-
-a:visited {
+a, a:visited {
   color: white;
 }
 
