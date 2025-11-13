@@ -1,13 +1,12 @@
 body {
-  font: 16px;
-    background-image: url(https://i.ytimg.com/vi/m1iTy0zJ8dU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCTDt2SQGaH6r5M-M-v5zpB1-0aTg);
-    
-    background-size: cover;
+  font: 16px Arial, sans-serif;
+  background-image: url(https://i.ytimg.com/vi/m1iTy0zJ8dU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCTDt2SQGaH6r5M-M-v5zpB1-0aTg);
+  background-size: cover;
 }
 
 .border {
   display: inline-block;
-  background: radial-gradient(circle, black, #2B2E13, #BD3128);
+  background: radial-gradient(circle, black, #2b2e13, #bd3128);
   margin-left: auto;
   margin-right: auto;
   padding: 1.5rem 4rem;
@@ -15,36 +14,38 @@ body {
 }
 
 h1 {
-    font-size:xx-large;
+  font-size: 2rem;
 }
 
 header {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-family: "Michroma";
-    color: white;
-    img {
-      margin-top: 1rem;
-    }
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: "Michroma";
+  color: white;
+  img {
+    margin-top: 1rem;
+  }
 }
 
 img {
   border: 2px solid red;
 }
+
 .lyrics {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-family: "Rubik Glitch";
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /* font-family: "Rubik Glitch"; */
+  font-family: "Candal", sans-serif;
 }
 
 footer {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-family: "Michroma";
-    color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: "Michroma";
+  color: white;
 }
 
 .rubik-glitch-regular {
@@ -68,11 +69,10 @@ hr {
   min-width: 24rem;
 }
 
-a, a:visited {
+a,
+a:visited {
   color: white;
 }
-
 a:hover {
-  color: #BD3128;
+  color: #bd3128;
 }
-
